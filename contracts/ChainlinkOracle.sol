@@ -7,7 +7,7 @@ contract ChainlinkOracle {
     AggregatorV3Interface internal priceFeed;
 
     constructor(address dataFeed) {
-        //ETH / USD
+      
 
         priceFeed = AggregatorV3Interface(
             dataFeed //BTC / USD
